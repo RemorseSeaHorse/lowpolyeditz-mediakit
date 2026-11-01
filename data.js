@@ -4,10 +4,10 @@ window.KIT = {
   updated: "Nov 1, 2026",           // shown in the header and the numbers section
   handle: "@lowpolyeditz",
   email: "lowpolybiz@gmail.com",
-  // Social links shown as buttons in the header (add tiktok: "https://www.tiktok.com/@..." when confirmed)
+  // Social links shown as buttons in the header. Instagram only for now:
+  // YouTube and TikTok get added (youtube: "...", tiktok: "...") once Li says they're big enough.
   links: {
-    instagram: "https://www.instagram.com/lowpolyeditz/",
-    youtube: "https://www.youtube.com/@LowPolyEditz"
+    instagram: "https://www.instagram.com/lowpolyeditz/"
   },
   title: "POLY vs. the universe",
   pitch: "3D low-poly shorts where one rule doubles until the universe breaks. POLY, a faceless hero, answers everything with one word. His friend Jamal never stops eating chips.",
