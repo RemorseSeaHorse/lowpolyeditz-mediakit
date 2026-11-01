@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lowpolyeditz · media kit</title>
+<meta name="description" content="POLY: 3D low-poly comedy shorts where one rule doubles until the universe breaks. Numbers, audience and sponsorship packages.">
+<meta property="og:title" content="lowpolyeditz · media kit">
+<meta property="og:description" content="POLY: 3D low-poly comedy shorts. 1.65M views in 30 days. Sponsorship packages from $150.">
+<meta property="og:image" content="img/hero.jpg">
+<link rel="icon" href="img/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+  :root{
+    --bg:#0b0d13; --panel:#141822; --line:#222838; --line2:#2a3142;
+    --text:#f3f4f6; --muted:#a3aab8; --soft:#c3c8d3; --accent:#ffd166; --star:#5ab0ff;
+    --serif:'Instrument Serif',Georgia,serif; --sans:Inter,system-ui,-apple-system,Segoe UI,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+  a{color:var(--text)}
+  .wrap{max-width:900px;margin:0 auto;padding:40px 20px 56px;display:flex;flex-direction:column;gap:36px}
+  .eyebrow{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.14em;color:var(--accent);text-transform:uppercase}
+  h2{margin:0;font-size:12px;font-weight:600;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+  .sechead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+  .sechead span{font-size:12px;color:var(--muted)}
+  .serif{font-family:var(--serif);font-weight:400}
+
+  /* header */
+  header{display:grid;grid-template-columns:1fr 240px;gap:28px;align-items:stretch}
+  .id{display:flex;align-items:center;gap:12px}
+  .id img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid var(--line2)}
+  .id b{display:block;font-size:15px;font-weight:600}
+  .id small{font-size:12px;color:var(--muted)}
+  h1{margin:8px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(40px,7vw,58px);line-height:1.04;color:#fff}
+  .pitch{margin:14px 0 0;font-size:15px;line-height:1.55;color:var(--soft);max-width:52ch}
+  .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+  .tags span{font-size:12px;color:var(--soft);border:1px solid var(--line2);border-radius:999px;padding:5px 10px}
+  .social{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:20px}
+  .btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:10px;border:1px solid var(--line2);font-size:14px;font-weight:600;text-decoration:none;color:var(--text);background:var(--panel)}
+  .btn.primary{background:var(--accent);color:#141413;border-color:var(--accent)}
+  .btn svg{width:16px;height:16px}
+  .hero{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:14px;border:1px solid var(--line2)}
+
+  /* stats */
+  .tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+  .tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:6px}
+  .tile .v{font-family:var(--serif);font-size:clamp(32px,5vw,42px);line-height:1;color:#fff}
+  .tile .l{font-size:12.5px;line-height:1.35;color:var(--muted)}
+  .note{margin:12px 0 0;font-size:13px;line-height:1.55;color:var(--muted)}
+  .note b{color:var(--text);font-weight:600}
+
+  /* audience */
+  .aud{display:grid;grid-template-columns:150px minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+  .big .v{font-family:var(--serif);font-size:40px;line-height:1;color:#fff}
+  .big .l{font-size:12px;color:var(--muted);margin:4px 0 14px}
+  .bars{display:flex;flex-direction:column;gap:8px}
+  .bars .t{font-size:12px;font-weight:600;margin-bottom:2px}
+  .bar{display:flex;align-items:center;gap:8px;font-size:12.5px}
+  .bar .k{width:88px;color:var(--muted);flex:none}
+  .bar .tr{flex:1;height:6px;background:#1d2230;border-radius:3px;overflow:hidden}
+  .bar .f{height:6px;border-radius:3px;background:var(--accent)}
+  .bar .n{width:36px;text-align:right;flex:none}
+  .lang{font-size:12px;color:var(--muted);margin-top:4px}.lang b{color:var(--text);font-weight:600}
+
+  /* reels */
+  .reels{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+  .reel{display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--muted)}
+  .reel img{width:100%;aspect-ratio:9/14;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+  .reel b{color:var(--text);font-weight:600}
+
+  /* packages */
+  .packs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+  .pack{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px;min-height:132px}
+  .pack .n{font-size:14px;font-weight:700;color:#fff}
+  .pack .d{font-size:12.5px;line-height:1.4;color:var(--muted)}
+  .pack .p{margin-top:auto;font-family:var(--serif);font-size:24px;line-height:1;color:var(--accent);padding-top:10px}
+  .music{margin:12px 0 0;font-size:13px;line-height:1.55;color:var(--soft);background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+
+  /* cta + footer */
+  .cta{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;border:1px solid var(--line2);border-radius:14px;padding:20px}
+  .cta h3{margin:0;font-family:var(--serif);font-weight:400;font-size:28px;line-height:1.1;color:#fff}
+  .cta p{margin:6px 0 0;font-size:13px;color:var(--muted)}
+  footer{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:16px;font-size:13px;color:var(--muted)}
+  footer b{color:var(--text);font-weight:600}
+
+  @media (max-width:760px){
+    .wrap{padding:28px 16px 48px;gap:30px}
+    header{grid-template-columns:1fr}
+    .hero{max-width:260px;aspect-ratio:3/4}
+    .tiles,.packs{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .aud{grid-template-columns:1fr}
+    .big{display:flex;gap:28px}.big .l{margin-bottom:0}
+    .reels{grid-template-columns:repeat(3,minmax(0,1fr))}
+  }
+  @media print{
+    body{background:#0b0d13}
+    .wrap{padding:16px;gap:20px}
+    .btn,.cta{display:none}
+  }
+</style>
+</head>
+<body>
+<main class="wrap" id="app">
+  <noscript><p>This page needs JavaScript to draw the numbers. Email lowpolybiz@gmail.com for the kit.</p></noscript>
+</main>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  const K = window.KIT;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const ICON = {
+    instagram:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>',
+    tiktok:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.5 3 2.5 5 5.5 5"/></svg>',
+    youtube:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor" stroke="none"/></svg>',
+    mail:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>'
+  };
+  const NAME = {instagram:'Instagram', tiktok:'TikTok', youtube:'YouTube'};
+  const bars = rows => {
+    const max = Math.max(...rows.map(r => r.pct));
+    return rows.map(r => `<div class="bar"><span class="k">${esc(r.label)}</span><div class="tr"><div class="f" style="width:${(r.pct/max*100).toFixed(0)}%"></div></div><span class="n">${r.pct}%</span></div>`).join('');
+  };
+  const social = Object.entries(K.links).map(([k,u]) => `<a class="btn" href="${esc(u)}" target="_blank" rel="noopener">${ICON[k]||''}${NAME[k]||k}</a>`).join('');
+
+  document.getElementById('app').innerHTML = `
+  <header>
+    <div style="display:flex;flex-direction:column">
+      <div class="id"><img src="img/avatar.jpg" alt="POLY, a white low-poly figure with a blue star"><div><b>${esc(K.handle)}</b><small>${esc(K.email)}</small></div></div>
+      <div class="eyebrow" style="margin-top:22px"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 14.6 9.4 24 12 14.6 14.6 12 24 9.4 14.6 0 12 9.4 9.4Z" fill="#5ab0ff"/></svg><span>Media kit · ${esc(K.updated)}</span></div>
+      <h1>${esc(K.title)}</h1>
+      <p class="pitch">${esc(K.pitch)}</p>
+      <div class="tags">${K.tags.map(t=>`<span>${esc(t)}</span>`).join('')}</div>
+      <div class="social"><a class="btn primary" href="mailto:${esc(K.email)}">${ICON.mail}Work with us</a>${social}</div>
+    </div>
+    <img class="hero" src="img/hero.jpg" alt="POLY and Jamal arm wrestling under the Moon">
+  </header>
+
+  <section>
+    <div class="sechead"><h2>The numbers</h2><span>Instagram insights, ${esc(K.updated)}</span></div>
+    <div class="tiles">${K.stats.map(s=>`<div class="tile"><div class="v">${esc(s.value)}</div><div class="l">${esc(s.label)}</div></div>`).join('')}</div>
+    <p class="note">${K.statsNote}</p>
+  </section>
+
+  <section>
+    <div class="sechead"><h2>Audience</h2></div>
+    <div class="aud">
+      <div class="big">${K.audience.headline.map(h=>`<div><div class="v">${esc(h.value)}</div><div class="l">${esc(h.label)}</div></div>`).join('')}</div>
+      <div class="bars"><div class="t">Age</div>${bars(K.audience.age)}</div>
+      <div class="bars"><div class="t">Top countries</div>${bars(K.audience.countries)}<div class="lang">Top language: <b>${esc(K.audience.language)}</b></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sechead"><h2>Top reels</h2><span>Original 3D episodes · views on Instagram</span></div>
+    <div class="reels">${K.reels.map(r=>`<div class="reel"><img src="${esc(r.img)}" alt="${esc(r.title)} reel, ${esc(r.views)} views" loading="lazy"><div><b>${esc(r.views)}</b> · ${esc(r.title)}</div></div>`).join('')}</div>
+  </section>
+
+  <section>
+    <div class="sechead"><h2>Work with us</h2><span>${esc(K.packagesNote)}</span></div>
+    <div class="packs">${K.packages.map(p=>`<div class="pack"><div class="n">${esc(p.name)}</div><div class="d">${esc(p.desc)}</div><div class="p">${esc(p.price)}</div></div>`).join('')}</div>
+    ${K.music ? `<p class="music">${esc(K.music)}</p>` : ''}
+  </section>
+
+  <section class="cta">
+    <div><h3>Got a product POLY should double?</h3><p>Starting prices above. Per-view deals, bundles and music placements: just ask.</p></div>
+    <a class="btn primary" href="mailto:${esc(K.email)}?subject=POLY%20sponsorship">${ICON.mail}${esc(K.email)}</a>
+  </section>
+
+  <footer>
+    <span>Current partner: <b>${esc(K.partner.name)}</b> (${esc(K.partner.note)})</span>
+    <span>${esc(K.handle)} · updated ${esc(K.updated)}</span>
+  </footer>`;
+})();
+</script>
+</body>
+</html>
