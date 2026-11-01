@@ -46,11 +46,11 @@ window.KIT = {
   // Thumbnails in img/, 348×548 (9:16 crop)
   reels: [
     { img: "img/reel-aura.jpg",    title: "Aura stairs", views: "1.1M" },
-    { img: "img/reel-sword.jpg",   title: "Sword",       views: "275K" },
-    { img: "img/reel-rizz.jpg",    title: "Rizz",        views: "96.6K" },
-    { img: "img/reel-phonk.jpg",   title: "Phonk",       views: "96.2K" },
-    { img: "img/reel-onemore.jpg", title: "One More",    views: "69.8K" },
-    { img: "img/reel-sneeze.jpg",  title: "Sneeze",      views: "69.6K" }
+    { img: "img/reel-sword.jpg",   title: "Sword",       views: "279K" },
+    { img: "img/reel-onemore.jpg", title: "One More",    views: "263K" },
+    { img: "img/reel-phonk.jpg",   title: "Phonk",       views: "108K" },
+    { img: "img/reel-rizz.jpg",    title: "Rizz",        views: "98.2K" },
+    { img: "img/reel-sneeze.jpg",  title: "Sneeze",      views: "73.1K" }
   ],
 
   // Starting prices, USD
